@@ -1,0 +1,40 @@
+.confession-container {
+  padding: 20px;
+  background-image: url('../media/us.jpg'); /* Background image */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the background image */
+  min-height: 100vh; /* Ensure it occupies full height */
+  color: white; /* Change text color to white for better contrast */
+}
+
+.confession-message {
+  max-width: 800px; /* Limit the width for better readability */
+  margin: auto;
+  overflow-y: auto; /* Enable vertical scroll if needed */
+  max-height: 70vh; /* Set a max height */
+  padding-right: 20px; /* Prevent text from hiding under the scrollbar */
+  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background */
+  border-radius: 10px; /* Round the corners */
+  padding: 20px; /* Add padding inside the message box */
+}
+
+.love-message {
+  text-align: center; /* Center align the main message */
+}
+
+.love-description {
+  margin: 10px 0; /* Add some spacing between paragraphs */
+  line-height: 1.5; /* Adjust line height for readability */
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.gallery-image {
+  width: 30%; /* Adjust as needed */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
