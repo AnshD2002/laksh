@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/laksh/static/css/main.82233159.css",
+    "main.js": "/laksh/static/js/main.248d4b2b.js",
+    "static/js/453.2986c38a.chunk.js": "/laksh/static/js/453.2986c38a.chunk.js",
+    "static/media/palaku.mp4": "/laksh/static/media/palaku.f8c44272b144f873c04e.mp4",
+    "static/media/us.jpg": "/laksh/static/media/us.077a3060d8af5e690153.jpg",
+    "index.html": "/laksh/index.html",
+    "main.82233159.css.map": "/laksh/static/css/main.82233159.css.map",
+    "main.248d4b2b.js.map": "/laksh/static/js/main.248d4b2b.js.map",
+    "453.2986c38a.chunk.js.map": "/laksh/static/js/453.2986c38a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82233159.css",
+    "static/js/main.248d4b2b.js"
+  ]
+}
