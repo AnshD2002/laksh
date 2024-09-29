@@ -19,12 +19,12 @@ function Home() {
         <div id="heart" className="mb-8 mr-8"></div>
         <div id="heart" className="mb-8"></div>
       </div>
-      <h1 className="text-7xl font-bold text-blue-600">Hello Palak</h1>
+      <h1 className="text-7xl font-bold text-blue-600 text-center">Happy Birthday <br/>Palak</h1>
       <button 
         className="p-5 text-4xl font-bold text-white bg-green-600 rounded-2xl mt-5"
         onClick={handleReplyClick}
       >
-        Reply HI
+        Thankyou
       </button>
     </div>
   );

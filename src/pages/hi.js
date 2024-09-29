@@ -15,17 +15,17 @@ function Hi() {
   };
 
   const handleBadiyaClick = () => {
-    setMessage("Bss Badiya ?");
+    setMessage("What? Bss Badiya ?");
     setHiddenButtons((prev) => ({ ...prev, badiya: true }));
   };
 
   const handleAcchiClick = () => {
-    setMessage("Acchi ?");
+    setMessage("Acchi ???, Mere bina acchi yaad ni aati kya meri ?");
     setHiddenButtons((prev) => ({ ...prev, acchi: true }));
   };
 
   const handleTumSeMatlabClick = () => {
-    setMessage("Mujhse matlab nahi toh kisse matlab hoga 😉");
+    setMessage("Mujhse matlab nahi toh kisse matlab hoga QT😉");
     setHiddenButtons({ fine: true, badiya: true, acchi: true });
     setIsTumSeMatlabClicked(true);
     setShowAcchaJiButton(true);
@@ -37,7 +37,7 @@ function Hi() {
   
   return (
     <div className="h-screen flex flex-col items-center justify-center bg-gray-400">
-      <h1 className="text-4xl font-bold text-blue-600">{message}</h1>
+      <h1 className="text-4xl font-bold text-blue-600 m-6">{message}</h1>
       <div className="grid mt-5 space-y-4">
         {/* Show Fine button if not hidden */}
         {!hiddenButtons.fine && (

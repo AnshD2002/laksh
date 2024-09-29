@@ -6,7 +6,8 @@ function Confession() {
   return (
     <div className="confession-container">
       <div className="confession-message">
-        <h1 className="love-message text-5xl">Isn't Moon Lovely ! 🌙❤️</h1>
+        <h1 className="love-message text-5xl mb-5">Confession</h1>
+        <h3 className="love-message text-2xl">Isn't Moon Lovely ! 🌙❤️</h3>
         <p className="love-description text-1xl text-black">
           Remember the first date we went i met you somewhere near dominos
           that was the first day i ever ate garlic bread and second time i
@@ -54,7 +55,7 @@ function Confession() {
           tum meri life main tab aayi thi jab m khud main pura tha kisi se bhi dil lagane se darta tha par i
           am happy mene dil us ladki se lagaya jisse mujhse sacha pyaar kiya even when i am writing this
           i want to just hug you and sleep next to you just by holding you want to feel those emotions coz
-          i never those emotions ever in my life and i know infact you never felt all that before me to me
+          i never felt those emotions ever in my life and i know infact you never felt all that before me to me
           you are always my first love and i will always love you haan manta hu mene bohot kuch bola h tumhe
           last mein m justify bhi ni kar sakta mera gussa mera ego bohot ghamand tha mujhe apne aap pe
           good looking , sexual energy , infact is baat ki mujhpe kafi lakiya line deti hain even meri
@@ -84,15 +85,14 @@ function Confession() {
           mujhe toh 2nd time bhi pyaar ussi ladki se hua jisse first time hua tha.
         </p>
       </div>
-      <div className="image-gallery">
-        <img src="path/to/image1.jpg" alt="Love 1" className="gallery-image" />
-        <img src="path/to/image2.jpg" alt="Love 2" className="gallery-image" />
-        <img src="path/to/image3.jpg" alt="Love 3" className="gallery-image" />
-      </div>
+      <video src={require('../media/palaku.mp4')} controls className="mt-4 w-52 h-auto max-w-lg mx-auto rounded-3xl" />
+      <h4 className='text-black text-center'>The day you were drunk at our home</h4>
+
+
 
       <div className=" flex justify-center items-center">
         <Link to="/memories">
-          <button className="bg-cyan-500 text-4xl px-4 py-2 rounded-lg mt-4">
+          <button className="bg-cyan-500 text-4xl px-3 py-1 rounded-lg mt-4">
             Memories
           </button>
         </Link>
