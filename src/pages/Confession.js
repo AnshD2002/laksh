@@ -48,7 +48,7 @@ function Confession() {
         <p className="love-description text-1xl text-black">
           <h3>14/11/2022:</h3>
           it was children's day i remember the day we went to the park had our first kiss like
-          not actual kiss but kind of you were always so full of joy, kind, happiness like you were always
+          not actual kiss but kind of where your spectacles came in between, you were always so full of joy, kind, happiness like you were always
           a happy kid chul bul bacchi bilkul and i wanted to be with you , you told me the last time we
           met ki mujhe sabne bss meri body k liye sex k liye approach kiya h sach hai ladke ese hi approach
           karte h but ye bhi sach h ki hamari first date m mujhe lust nahi love feel hua tha even second date,
