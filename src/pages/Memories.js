@@ -188,14 +188,15 @@ function Memories() {
         ) : (
           <div className="relative w-full max-w-4xl">
             <video
-              src={media[currentIndex].src}
-              alt={media[currentIndex].alt}
-              className="w-full h-auto max-h-[75vh] rounded-lg shadow-lg z-0"
-              controls
-              autoPlay
-              unmuted
-              loop
-            />
+  src={media[currentIndex].src}
+  alt={media[currentIndex].alt}
+  className="w-full h-auto max-h-[75vh] rounded-lg shadow-lg z-0"
+  controls
+  autoPlay
+  unmuted
+  loop
+  controlsList="nodownload" // Add this attribute to disable download option
+/>
           </div>
         )}
       </div>
