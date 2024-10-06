@@ -84,6 +84,12 @@ function Confession() {
           i love you is baar tum aogi toh mein tumhe vo sab express karunga toh mujhe shuruat se karna chahiye tha ,
           mujhe toh 2nd time bhi pyaar ussi ladki se hua jisse first time hua tha.
         </p>
+
+        <p className="love-description text-1xl text-black">
+          <h3>6/10/2022:</h3>
+          it's been almost 1.5 months to our break up and 3rd time when I got your dream after breakup, I hope you are good my love 💕 it's 5:41am just woke up I got a dream of you where you are with me at roof of my home but you are not talking to me , I was retrieving clothes which were kept to dry and also was trying to talk to you.
+then I went in to keep those clothes you followed me but denied to come inside my home at was just waiting for me to leave you at your place 😭, can't we just keep our egos ide and talk to each other.
+        </p>
       </div>
       <video src={require('../media/palaku.mp4')} controls className="mt-4 w-52 h-auto max-w-lg mx-auto rounded-3xl" />
       <h4 className='text-black text-center'>The day you were drunk at our home</h4>
